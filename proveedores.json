@@ -1,0 +1,32 @@
+{
+    "_id": 1,
+    "nombre": "Buenas_Gafas",
+    "direccion": {
+      "calle": "Calle 1",
+      "numero": 1,
+      "piso": 3,
+      "porta": 1,
+      "ciudad": "Barcelona",
+      "codigo_postal": 08001,
+      "pais": "España"
+    },
+    "telefono": 9312312312,
+    "fax": 9312312311,
+    "nif": "A12312312"
+ },
+ {
+    "_id": 2,
+    "nombre": "Gafas_Perfectas",
+    "direccion": {
+      "calle": "Calle 2",
+      "numero": 2,
+      "piso": 1,
+      "porta": 4,
+      "ciudad": "Girona",
+      "codigo_postal": 08002,
+      "pais": "España"
+    },
+    "telefono": 9378912312,
+    "fax": 9312312222,
+    "nif": "A12312222"
+ }

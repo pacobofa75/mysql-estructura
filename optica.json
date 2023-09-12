@@ -1,0 +1,132 @@
+{
+    "Proveedor": [
+      {
+        "nombre": "Buenas_Gafas",
+        "direccion": {
+          "calle": "Calle 1",
+          "numero": 1,
+          "piso": 3,
+          "porta": 1,
+          "ciudad": "Barcelona",
+          "codigo_postal": 08001,
+          "pais": "España"
+        },
+        "telefono": 9312312312,
+        "fax": 9312312311,
+        "nif": "A12312312",
+        "gafas": [
+          {
+            "marca": "Ray-Ban",
+            "graduacion": 2,
+            "tipo_montura": "metálica",
+            "color_montura": "negra",
+            "color_vidrio": "transparente",
+            "precio": 70
+          },
+          {
+            "marca": "Hugo-Boss",
+            "graduacion": 3,
+            "tipo_montura": "pasta",
+            "color_montura": "blanca",
+            "color_vidrio": "transparente",
+            "precio": 100
+          },
+          {
+            "marca": "Adidas",
+            "graduacion": 4,
+            "tipo_montura": "pasta",
+            "color_montura": "roja",
+            "color_vidrio": "negro",
+            "precio": 90
+          }
+        ]
+      },
+      {
+        "nombre": "Gafas_Perfectas",
+        "direccion": {
+          "calle": "Calle 2",
+          "numero": 2,
+          "piso": 1,
+          "porta": 4,
+          "ciudad": "Girona",
+          "codigo_postal": 08002,
+          "pais": "España"
+        },
+        "telefono": 9378912312,
+        "fax": 9312312222,
+        "nif": "A12312222",
+        "gafas": [
+          {
+            "marca": "Nike",
+            "graduacion": 2,
+            "tipo_montura": "flotante",
+            "color_montura": "negra",
+            "color_vidrio": "transparente",
+            "precio": 60
+          },
+          {
+            "marca": "Kors",
+            "graduacion": 3,
+            "tipo_montura": "pasta",
+            "color_montura": "roja",
+            "color_vidrio": "transparente",
+            "precio": 120
+          },
+          {
+            "marca": "Samsung",
+            "graduacion": 2,
+            "tipo_montura": "pasta",
+            "color_montura": "verde",
+            "color_vidrio": "negro",
+            "precio": 50
+          }
+
+    ],
+    "Cliente": [
+      {
+        "nombre": "Paco",
+        "direccion_postal": "Calle 4",
+        "telefono": 93111111111,
+        "correo_electronico": "cliente1@cliente.com",
+        "data_registro": new Date("12/8/2012"),
+        "recomendado_por": "Patricia",
+        "ventas": [
+          {
+            "fecha_venta": new Daate("02/11/2020"),
+            "empleado": "Patricia",
+            "gafas": {
+              "marca": "Ray_-Ban",
+              "graduacion": "2",
+              "tipo_montura": "pasta",
+              "color_montura": "negra",
+              "color_vidre": "transparente",
+              "precio": 70,
+            }
+          }
+        ]
+      },
+      {
+        "nombre": "Luis",
+        "direccion_postal": "Calle 7",
+        "telefono": 93555555555,
+        "correo_electronico": "luis@cliente.com",
+        "data_registre": new Date("06/08/2021"),
+        "recomendado_por": "Patricia",
+        "ventas": [
+          {
+            "fecha_venta": new Date("06/08/2021"),
+            "empleat": "Patricia",
+            "gafas": {
+              "marca": "Adidas",
+              "graduacion": 4,
+              "tipo_montura": "Pasta",
+              "color_montura": "Rojo",
+              "color_vidre": "Negro",
+              "precio": "70"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
